@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  padding: 20px;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  border: none;
+}
+
+.expense-list {
+  margin-top: 10px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.expense-actions button {
+  margin-left: 6px;
+  padding: 6px 10px;
+  background: #e74c3c;
+}
+
+.expense-actions .edit {
+  background: #27ae60;
+}
